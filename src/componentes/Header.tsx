@@ -3,8 +3,9 @@ import './Header.css'
 function Header(){
     return (
         <header>
-            <div className='logo'></div>
+            <div className='logo'>1022B</div>
             <nav>
+                <ul>
                 <li>
                     <a href='http://'>Home</a>
                 </li>
@@ -14,6 +15,7 @@ function Header(){
                 <li>
                     <a href='http://'>Informações</a>
                 </li>
+                </ul>
             </nav>
         </header>
     )
